@@ -1,22 +1,23 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
 import URI from "./uri";
+import { Landing, Tables, Other } from "../pages";
 
 function Routes() {
   return (
     <div>
       <Switch>
         <Route path={URI.LANDING} exact>
-          <p>Landing</p>
+          <Landing />
         </Route>
         <Route path={URI.TABLES}>
-          <p>Tables</p>
+          <Tables />
         </Route>
         <Route path={URI.OTHER}>
-          <p>Other</p>
+          <Other />
         </Route>
         <Route path="*">
-          <p>Landing</p>
+          <Landing />
         </Route>
       </Switch>
     </div>
