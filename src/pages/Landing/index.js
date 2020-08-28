@@ -1,5 +1,10 @@
 import React from "react";
+import { Header } from "../../components/header";
 
 export default function Landing() {
-  return <h1>Hi This is landing page</h1>;
+  return (
+    <div>
+      <Header title="Landing Page Header" />
+    </div>
+  );
 }

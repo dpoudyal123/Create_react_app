@@ -1,4 +1,3 @@
-import Header from "./header";
+import { Header, Icons } from "./header";
 
-// eslint-disable-next-line import/prefer-default-export
-export { Header };
+export { Header, Icons };

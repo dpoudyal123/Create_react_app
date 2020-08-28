@@ -1,5 +1,4 @@
-import React from "react";
+import Header from "./Header";
+import Icons from "./Icons";
 
-export default function Header() {
-  return <h1>Header Page</h1>;
-}
+export { Header, Icons };
